@@ -3,6 +3,19 @@ Alpha Version 1.7 - 20200909
 Beaker Labs llc. [Comming? Maybe? Different Name?]
 
 ------------------------------------------------------------------
+Purpose to Developer:
+------------------------------------------------------------------
+The information provided in the next section will outline the functional purpose of the project and explain the original inspiration for the overall program. The purpose
+behind the project for me the developer is to use this program to teach myself to code in python and the associated skills. Many aspects of the ledgers developed has steamed 
+from either a need to learn a new skill, or in an attempt to put a new skill into practice. This project provides a great canvas to try many different skills such as
+--- General Python Code and OOP
+--- SQLlite
+--- Numpy, Pandas, Matplotlib
+--- PyQt5
+--- Reportlab (Pdf Generator)
+--- and more.
+
+------------------------------------------------------------------
 Description / Purpose of the Project:
 ------------------------------------------------------------------
 --- The project is designed to replace the use of Microsoft Excel for the purposes of tracking a users Personal Finances 
