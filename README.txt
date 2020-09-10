@@ -35,8 +35,7 @@ Installation
 Python
 --- 1 -- Download all files in the repository. 
 --- 2 -- Load the program from the Executable.pyw file.
----   -- -- Libraries utalized to operate program. 
-	    [PyQt5, matplotlib, numpy, Reportlab, requests, urlib3, bs4, beautifulsoup4, Pillow, secrets]
+---   -- -- Be sure to check the Requirements.txt for all associated dependancies required for this program to opperate properly.
 
 ------------------------------------------------------------------
 Create New User
