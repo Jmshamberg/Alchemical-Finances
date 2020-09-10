@@ -87,8 +87,8 @@ As a solo programmer I can not promise updates or new features to appear quickly
             self.ui.labelReminder.setText("")
             self.ui.labelSigniture.setText("""
 Your Grateful Programmer,
-Mystified Adult
-Contact@demystifyAdulthood.com       
+Jonathan Shamberg
+Jmshamberg@gmail.com    
 """)
             logoImage = QPixmap('AF Logo.png')
             logoAdjustment = logoImage.scaled(90, 90, 1, 1)

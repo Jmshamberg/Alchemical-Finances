@@ -202,7 +202,7 @@ def net_worth_line_graph(database):
         divisor = 10
         designation = "tens"
     elif largest_y_value < 1000:
-        divisor = 0
+        divisor = 1
         designation = "dollars"
 
     # separates the SQL data into their appropriate axis designations
@@ -221,6 +221,8 @@ def net_worth_line_graph(database):
     y_max = round(mod_lar_y, -1) + 10
     y_interval_raw = ceil(mod_lar_y/15)
     y_interval = round(y_interval_raw, -1)
+    if y_interval == 0:
+        y_interval += 1
 
     lg_data = [x_date, y1_gross, y2_liability, y3_net, x_interval, y_interval, y_max, designation, y1_gross_fill, y2_liability_fill, y3_net_fill]
     return lg_data
