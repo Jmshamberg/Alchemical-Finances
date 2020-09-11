@@ -52,7 +52,7 @@ class AboutProgram(QDialog):
         self.ui.labelTagLine.setAlignment(QtCore.Qt.AlignBottom|QtCore.Qt.AlignLeading|QtCore.Qt.AlignHCenter)
 
         self.ui.labelVersion.setText("""
-Current Version:        1.7""")
+Current Version:        1.75""")
 
         self.ui.labelVersion.setFont(aboutFont)
         self.ui.labelVersion.setAlignment(QtCore.Qt.AlignVCenter|QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft)
@@ -63,7 +63,7 @@ Developed By:          Beaker Labs llc. [Coming Soon? Different Name?]""")
         self.ui.labelDeveloper.setAlignment(QtCore.Qt.AlignVCenter|QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft)
 
         self.ui.labelReleaseDate.setText("""
-Release Date:           April 5th, 2020""")
+Release Date:           September 10th, 2020""")
         self.ui.labelReleaseDate.setFont(aboutFont)
         self.ui.labelReleaseDate.setAlignment(QtCore.Qt.AlignVCenter|QtCore.Qt.AlignLeading|QtCore.Qt.AlignLeft)
 

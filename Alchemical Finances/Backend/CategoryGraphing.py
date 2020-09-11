@@ -114,7 +114,7 @@ if __name__ == "__main__":
         category_frame.index = [x for x in cat_transactions]
 
     # DataFrame construction for a Specific period of time.
-    else: # Specific
+    else:  # Specific
         month_transactions = {}
         month_sum = {}
         month_count = {}
